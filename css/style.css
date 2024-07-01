@@ -11,7 +11,7 @@
 }
 
 /* Style for header: menu */
-header{
+/* header{
     width: 100vw;
     background-color: rgba(62, 185, 185, 0.39);
     font-family: 'fredoka';
@@ -19,7 +19,7 @@ header{
     padding: 10px 10px;
     display: inline-block;
     position: fixed;
-    }
+    } */
     
 #logo{
     height: 50px;
@@ -29,7 +29,7 @@ header{
 
 /* Nav bar */
 nav {
-    float: right;
+    float: center;
     position: sticky;
     padding-top: 8px;
     
