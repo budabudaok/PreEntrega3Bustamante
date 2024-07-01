@@ -21,86 +21,73 @@
         <!-- <img src="./assets/icons/logo-cuchita-blanco.png" alt="Logo del Sitio" id="logo"> -->
         <!-- End Logo -->
 
-        <!-- Nav with bootstrap -->
-        <!-- Inicio del menu -->
-        
-        <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <!-- Nav con bootstrap -->
+        <!-- Nav con bootstrap -->
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color:#e3f2fd;">
             <div class="container-fluid">
-            <!-- icono o nombre -->
+                <!-- boton del menu -->
+                <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <a class="navbar-brand" href="#">
-            <i class="bi bi-globe-americas"></i>
-            <span class="text-warning">Proyecto Canino</span>
-            </a>
-                
-            <!-- boton del menu -->
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- elementos del menu colapsable -->
-
-            <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Bienvenidos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="../MiSitio/pages/comunidad.html">Comunidad</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Servicios
+                <!-- icono o nombre -->
+                <a class="navbar-brand order-last order-md-first" href="#">
+                    <i class="bi bi-globe-americas"></i>
+                    <span class="text-warning">Proyecto Canino</span>
                 </a>
 
-                <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Renta</a></li>
-                    <li><a class="dropdown-item" href="#">Equipos</a><li>   
-                    <li><a class="dropdown-item" href="#">Networking</a></li>
-                </ul>
-                </li>
-            </ul>
+                <!-- elementos del menu colapsable -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Bienvenidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../MiSitio/pages/comunidad.html">Comunidad</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Renta</a></li>
+                                <li><a class="dropdown-item" href="#">Equipos</a></li>
+                                <li><a class="dropdown-item" href="#">Networking</a></li>
+                            </ul>
+                        </li>
+                    </ul>
 
-            <hr class="d-md-none text-white-50">
+                    <hr class="d-md-none text-white-50">
 
-            <!-- enlaces redes sociales -->
+                    <!-- enlaces redes sociales -->
+                    <ul class="navbar-nav flex-row flex-wrap text-dark">
+                        <li class="nav-item col-6 col-md-auto p-3">
+                            <i class="bi bi-twitter-x"></i>
+                            <small class="d-md-none ms-2">Twitter</small>  
+                        </li>
+                        <li class="nav-item col-6 col-md-auto p-3">
+                            <i class="bi bi-github"></i>
+                            <small class="d-md-none ms-2">GitHub</small> 
+                        </li>
+                        <li class="nav-item col-6 col-md-auto p-3">
+                            <i class="bi bi-whatsapp"></i>
+                            <small class="d-md-none ms-2">WhatsApp</small>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto p-3">
+                            <i class="bi bi-facebook"></i>
+                            <small class="d-md-none ms-2">Facebook</small>
+                        </li>
+                    </ul>
 
-            <ul class="navbar-nav  flex-row flex-wrap text-dark">
-
-            <li class="nav-item col-6 col-md-auto p-3">
-                <i class="bi bi-twitter-x"></i>
-                    <small class="d-md-none ms-2">Twitter</small>  
-                </li>
-
-                <li class="nav-item col-6 col-md-auto p-3">
-                <i class="bi bi-github"></i>
-                <small class="d-md-none ms-2">GitHub</small> 
-                </li>
-
-                <li class="nav-item col-6 col-md-auto p-3">
-                <i class="bi bi-whatsapp"></i>
-                <small class="d-md-none ms-2">WhatsApp</small>
-                </li>
-
-                <li class="nav-item col-6 col-md-auto p-3">
-                <i class="bi bi-facebook"></i>
-                <small class="d-md-none ms-2">Facebook</small>
-                </li>
-
-            </ul>
-            
-            <!--boton Informacion -->
-
-            <form class="d-flex">
-                <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Informacion</button>
-            </form>
-            
-            
-            </div>
-        
+                    <!-- botón Información -->
+                    <form class="d-flex">
+                        <button class="btn btn-outline-warning d-none d-md-inline-block" type="submit">ACCEDER</button>
+                    </form>
+                </div>
             </div>  
         </nav>
+
+
 
         <!-- End Nav bootstrap -->
 <!--         <nav> 
