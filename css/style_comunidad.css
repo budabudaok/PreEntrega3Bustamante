@@ -11,7 +11,7 @@
 }
 
 /* Style for header: menu */
-header{
+/* header{
     width: 100vw;
     background-color: rgba(62, 185, 185, 0.39);
     font-family: 'fredoka';
@@ -19,21 +19,21 @@ header{
     padding: 10px 10px;
     display: inline-block;
     position: fixed;
-    }
+    } */
     
-#logo{
+/* #logo{
     height: 50px;
     width: 50px;
     float: left;
-    }
+    } */
 
 /* Nav bar */
-nav {
+/* nav {
     float: right;
-    position: sticky;
+   /*  position: sticky; */
     padding-top: 8px;
     
-}
+} */
 
 #menu li{
     list-style: none;

@@ -18,18 +18,18 @@ header{
     font-size: 20px;
     padding: 10px 10px;
     display: inline-block;
-    position: fixed;
+/*     position: fixed; */
     }
     
-#logo{
+/* #logo{
     height: 50px;
     width: 50px;
     float: left;
-    }
+    } */
 
 /* Nav bar */
 nav {
-    float: right;
+    float: center;
     position: sticky;
     padding-top: 8px;
     
