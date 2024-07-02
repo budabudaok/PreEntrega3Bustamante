@@ -27,24 +27,25 @@
 
                 <!-- Logo -->
                 <a class="navbar-brand order-last order-md-first" href="#">
-                    <!-- Logo -->
                     <img src="./assets/icons/logo-cuchita-blanco.png" alt="Logo del Sitio" id="logo">
                 </a>
 
-                <!-- elementos del menu colapsable -->
+                <!-- Menu colapsable -->
                 <div class="collapse navbar-collapse" id="menu">
-                    <ul class="navbar-nav me-auto">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Bienvenidos</a>
+                            <a class="nav-link active" aria-current="page" href="#"> <i class="fa-solid fa-house"></i> Bienvenidos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../MiSitio/pages/comunidad.html">QR Mascoteros</a>
+                            <a class="nav-link" href="./pages/comunidad.html"> <i class="fa-solid fa-user-group"></i> Comunidad</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../MiSitio/pages/comunidad.html">Paseadores</a>
+                            <a class="nav-link" href="./pages/paseadores.html"> <i class="fa-solid fa-dog"></i> Paseadores</a>
                         </li>
-                        
-                        <!-- Este es un menu desplegable pero comentado -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/qr_mascoteros.html"> <i class="fa-solid fa-paw"></i> QR Mascoteros</a>
+                        </li>
+                        <!-- Este es un menu desplegable pero comentado, para submenu futuro -->
 <!--                    <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Menu Desplegable
@@ -57,19 +58,17 @@
                         </li> -->
                     </ul>
 
-                    <hr class="d-md-none text-white-50">
-
-                    <!-- Icono de ACCEDER -->
-                    <ul class="navbar-nav flex-row flex-wrap text-dark">
+                    <!--  Primer boton de ACCEDER -->
+<!--                <ul class="navbar-nav flex-row flex-wrap text-dark">
                         <li class="nav-item col-6 col-md-auto p-3">
                             <i class="fa-solid fa-user fa-xl"></i>
                             <small class="d-md-none ms-2">ACCEDER</small>  
                         </li>
-                    </ul>
+                    </ul> -->
 
                     <!-- botón Información -->
                     <form class="d-flex">
-                        <button class="btn btn-outline-warning d-none d-md-inline-block" type="submit">ACCEDER</button>
+                        <button class="btn btn-primary" href type="#"><i class="fa-solid fa-user fa-xl"></i> ACCEDER</button>
                     </form>
                 </div>
             </div>  

@@ -19,7 +19,7 @@
     height: 100vh; /* Altura del contenedor */
     position: relative;
     font-family: 'fredoka';
-    font-size: 60px;
+    font-size: 66px;
     color: rgb(255, 131, 218); /* Color del texto */
 }
 
@@ -63,7 +63,7 @@ nav {
     background-color: #ffffff;
     border-radius: 50px;
     padding: 2px 8px;
-    margin: 0px 5px;
+    margin: 0px 2px 5px;
     display: inline-block;
 } 
 
