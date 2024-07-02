@@ -10,15 +10,16 @@
     box-sizing: border-box;
 }
 
-
+/* Hero en Bootstrap */
 .bg-image {
     background-image: url('../assets/img/familia_moderna_proyecto_canino.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Altura del contenedor */
     position: relative;
-    color: rgb(73, 68, 68); /* Color del texto */
+    color: rgb(211, 27, 141); /* Color del texto */
 }
+
 .overlay {
     position: absolute;
     top: 50%;
