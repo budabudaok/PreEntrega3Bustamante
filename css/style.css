@@ -15,13 +15,16 @@
     background-image: url('../assets/img/familia_moderna_proyecto_canino.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh; /* Altura del contenedor */
     position: relative;
-    color: rgb(211, 27, 141); /* Color del texto */
+    font-family: 'fredoka';
+    font-size: 60px;
+    color: rgb(255, 131, 218); /* Color del texto */
 }
 
 .overlay {
-    position: absolute;
+    position: absolute;/*  */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -127,9 +130,9 @@ h3{
     font-family: 'poppins';
 }
 
-p{
+/* p{
     font-family: 'poppins';
-}
+} */
 
 footer{
     background-color: #e7e7e7;
