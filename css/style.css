@@ -20,6 +20,7 @@
     position: relative;
     font-family: 'fredoka';
     font-size: 66px;
+    font-weight: 700;
     color: rgb(255, 131, 218); /* Color del texto */
 }
 
@@ -30,8 +31,6 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-
 
 /* Style for header: menu */
 /* header{
@@ -53,7 +52,7 @@
 /* Nav bar */
 nav {
     float: center;
-    position: sticky;
+    position: fixed;
     padding-top: 8px;
     
 }
@@ -62,8 +61,8 @@ nav {
     list-style: none;
     background-color: #ffffff;
     border-radius: 50px;
-    padding: 2px 8px;
-    margin: 0px 2px 5px;
+    padding: 2px 10px;
+    margin: 1px 15px 5px;
     display: inline-block;
 } 
 
@@ -71,22 +70,22 @@ nav {
     text-decoration: none;
 }
 
-#hero{
+/* #hero{
     background-image: url(../assets/img/familia_moderna_proyecto_canino.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     height: 600px;
-}
+} */
 
-#slogan{
+/* #slogan{
     font-family: 'fredoka';
     text-align: center;
     color: rgb(255, 131, 218);
     font-size: 60px;
     padding-top: 200px;   
 }
-
+ */
 .titulos{
     font-family: 'fredoka';
     text-align: center;
@@ -96,39 +95,39 @@ nav {
     padding-bottom: 20px; 
 }
 
-#textarticle{
+/* #textarticle{
     display: inline-block;
     text-align: center;
     font-family: 'poppins';
     width: 100%;
     padding-right: 200px;
     padding-left: 200px;
-}
+} */
 
-#subproyectos{
+/* #subproyectos{
     display: block;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
-}
+} */
 
-.desarrollos{
+/* .desarrollos{
     display: inline-block;
-}
+} */
 
-.subproyecto{
+/* .subproyecto{
     width: 300px;
     margin: 30px 20px;
     height: 250px;
     border-color: rgb(191, 245, 255);
     border-style: solid;
     border-radius: 50px;
-}
+} */
 
-h3{
+/* h3{
     text-align: center;
     font-family: 'poppins';
-}
+} */
 
 /* p{
     font-family: 'poppins';
