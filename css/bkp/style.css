@@ -1,0 +1,178 @@
+/* Import Google fonts Fredoka*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+/* Import Google fonts Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Hero en Bootstrap */
+.bg-image {
+    background-image: url('../assets/img/familia_moderna_proyecto_canino.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Altura del contenedor */
+    position: relative;
+    font-family: 'fredoka';
+    font-size: 66px;
+    font-weight: 700;
+    color: rgb(255, 131, 218); /* Color del texto */
+}
+
+.overlay {
+    position: absolute;/*  */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style for header: menu */
+/* header{
+    width: 100vw;
+    background-color: rgba(62, 185, 185, 0.39);
+    font-family: 'fredoka';
+    font-size: 20px;
+    padding: 10px 10px;
+    display: inline-block;
+    position: fixed;
+    } */
+    
+#logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    }
+
+/* Nav bar */
+nav {
+    float: center;
+    position: fixed;
+    padding-top: 8px;
+    
+}
+
+#menu li{
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 2px 10px;
+    margin: 1px 15px 5px;
+    display: inline-block;
+} 
+
+#menu li a{
+    text-decoration: none;
+}
+
+/* #hero{
+    background-image: url(../assets/img/familia_moderna_proyecto_canino.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 600px;
+} */
+
+/* #slogan{
+    font-family: 'fredoka';
+    text-align: center;
+    color: rgb(255, 131, 218);
+    font-size: 60px;
+    padding-top: 200px;   
+}
+ */
+.titulos{
+    font-family: 'fredoka';
+    text-align: center;
+    color: rgb(94, 226, 243);
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+}
+
+/* #textarticle{
+    display: inline-block;
+    text-align: center;
+    font-family: 'poppins';
+    width: 100%;
+    padding-right: 200px;
+    padding-left: 200px;
+} */
+
+/* #subproyectos{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+} */
+
+/* .desarrollos{
+    display: inline-block;
+} */
+
+/* .subproyecto{
+    width: 300px;
+    margin: 30px 20px;
+    height: 250px;
+    border-color: rgb(191, 245, 255);
+    border-style: solid;
+    border-radius: 50px;
+} */
+
+/* h3{
+    text-align: center;
+    font-family: 'poppins';
+} */
+
+/* p{
+    font-family: 'poppins';
+} */
+
+footer{
+    background-color: #e7e7e7;
+    height: 200px;
+}
+
+footer h4{
+    font-family: 'fredoka';
+    text-align: center;
+    color: rgb(78, 78, 78);
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+}
+
+footer p{
+    font-family: 'fredoka';
+    text-align: center;
+    color:  rgb(255, 131, 218);
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+/* Footer - redes sociales */
+#redes_sociales{
+    display: block;
+    text-align: center;
+    background-color: #e7e7e7;
+}
+
+.redes{
+    display: inline-block;
+}
+
+.icono_red{
+    width: 64px;
+    height: 64px;
+    margin: 60px 60px;
+}
+
+span{
+    font-family: 'poppins';
+    font-size: 14px;
+}
