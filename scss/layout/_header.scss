@@ -1,3 +1,17 @@
+/* Header del Home */
 header{
     @include gradient-bg($color-degrade-inicial-home, $color-degrade-medio-home, $color-degrade-final-home);
+    //Color de los iconos
+    .icon-white {
+        color: white;
+    }
+    /* Font-size del texto */
+    .navbar .nav-link {
+        font-size: 1.25rem; 
+        color: white;
+    }
+    /* Color del texto en hover */
+    .navbar .nav-link:hover {
+        color: black; 
+    }
 }
