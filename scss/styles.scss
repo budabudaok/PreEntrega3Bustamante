@@ -1,3 +1,7 @@
-//Importo las secciones del sitio
-@import "header";
-@import "home";
+@import "functions/variables";
+/* Importo las fuentes del sitio */
+@import "base/fonts";
+/* Importo las secciones del sitio */
+@import "layout/_header";
+
+@import "pages/home";
