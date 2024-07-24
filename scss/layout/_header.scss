@@ -10,6 +10,13 @@ header{
         font-size: 1.2rem; 
         color: white;
     }
+
+    .navbar-toggler{
+        color: white;
+    }
+}
+
+
     /* Color del texto, transform y margin en hover */
     .navbar .nav-link:hover {
         color: black; 
@@ -17,4 +24,6 @@ header{
         margin-right: 20px;
         margin-left: 20px;
     }
-}
+    .navbar-toggler{
+        color: white;
+    }
