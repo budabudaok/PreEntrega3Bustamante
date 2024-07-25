@@ -1,3 +1,27 @@
+.nav-item{
+    background-color: azure;
+    border-color: rgb(191, 245, 255);
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+/* Color del texto, transform y margin en hover */
+.navbar .nav-link:hover {
+    color: black; 
+    transform: scale(1.2);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 /* Mobile view */
 @media (max-width: 767.98px) { /* Mobile view */
     .navbar-nav {
@@ -24,3 +48,5 @@
         text-align: center;
     }
 }
+
+
