@@ -5,18 +5,22 @@
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 60vh; /* Altura del contenedor */
+    height: 60vh;  /* Altura del contenedor */
     position: relative;
     font-family: 'fredoka';
     font-size: 60px;
     font-weight: 700;
     color: rgb(255, 254, 244); /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Sub-Overlay negro con opacidad */
 }
 .overlay {
-    position: absolute;/*  */
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad */
+    width: 100%;
+    height: 100%;
 }
