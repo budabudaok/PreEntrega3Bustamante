@@ -21,44 +21,39 @@
     margin-right: 20px;
     margin-left: 20px;
 }
-/* Color blanco el borde del menu mobile*/
-.navbar-toggler{
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-}
-/* Color blanco el icono del menu mobile con codificacion de svg*/
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}  
 
-/* Vista solo Mobile */
+
+/* Vistas solo para Mobile */
 @media (max-width: 767.98px) {
-
+    /* Iconos de ancho completo y centrado */
     .navbar-nav .nav-item {
         width: 100%;
         text-align: center;
     }
-    /* Boton "Acceder" */
+    /* Centrar boton "acceder" */
     .d-flex{
         justify-content: center;
-        :hover{
+
+        }
+    .btn-color:hover{
+            transition: 0.2s;
             transform: scale(1.2);
             margin-right: 20px;
             margin-left: 20px;
+            border: 2px solid wheat;
+            background-color: white;
         }
-            .btn-color{
-                margin-top: 20px;
-                width: 30%;
-                text-align: center;
-            }
-            transition: 0.5s;
-            .btn-color:hover{
-                background: rgb(200, 233, 255); 
-                transform: scale(1.2);
-                margin-right: 20px;
-                margin-left: 20px;
-            }
+
+/* Color blanco al borde del menu mobile*/
+.navbar-toggler{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
     }
+
+/* Color blanco al icono del menu mobile con codificacion de svg*/
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }  
 
 }
 
