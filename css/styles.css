@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Importo las fuentes del sitio */
 /* Import Google fonts Fredoka*/
 @import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
@@ -11,7 +12,7 @@ header {
   /* Font-size y color del texto */
   /* Boton "Acceder" */
   /* Linea del borde inferior */
-  border-bottom: white 2px;
+  border-bottom: 1px solid white;
 }
 header .icon-color {
   color: rgba(120, 237, 255, 0.919);
@@ -21,9 +22,9 @@ header .navbar .nav-link {
   color: rgb(0, 180, 224);
 }
 header .btn-color {
-  color: rgb(0, 0, 0);
+  color: rgba(120, 237, 255, 0.919);
   background-color: rgb(255, 255, 255);
-  border-color: rgb(191, 245, 255);
+  border-color: rgb(255, 255, 255);
   border-style: solid;
   border-width: 4px;
   border-radius: 4px;
@@ -60,6 +61,7 @@ header .btn-color {
   height: 100%;
 }
 
+/* Items del menu de navegación */
 .nav-item {
   background-color: azure;
   border-color: rgb(191, 245, 255);
@@ -72,7 +74,7 @@ header .btn-color {
   margin-right: 2px;
 }
 
-/* Color del texto, transform y margin en hover */
+/* Color del texto, transform y margin en hover del menu */
 .navbar .nav-link {
   transition: 0.5s;
 }
@@ -95,30 +97,32 @@ header .btn-color {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-/* Mobile view */
-@media (max-width: 767.98px) { /* Mobile view */
-  .navbar-nav {
-    width: 100%;
-    justify-content: center;
-  }
+/* Vista solo Mobile */
+@media (max-width: 767.98px) {
   .navbar-nav .nav-item {
     width: 100%;
     text-align: center;
   }
-  .navbar-toggler {
-    order: 1;
-  }
-  .navbar-brand {
-    order: 2;
-    margin: 0 auto;
-  }
-  .navbar-collapse .form-inline {
-    width: 100%;
+  /* Boton "Acceder" */
+  .d-flex {
     justify-content: center;
+    transition: 0.5s;
   }
-  .navbar-collapse .form-inline .btn {
-    width: 100%;
+  .d-flex :hover {
+    transform: scale(1.2);
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .d-flex .btn-color {
+    margin-top: 20px;
+    width: 30%;
     text-align: center;
+  }
+  .d-flex .btn-color:hover {
+    background: rgb(200, 233, 255);
+    transform: scale(1.2);
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 
