@@ -18,8 +18,11 @@
     <link rel="stylesheet" href="./css/styles.css">
     <!-- Link hacia los iconos de Botstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Link hacia la animaciones de Animate.css -->
+    <!-- Link hacia las animaciones de Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Link hacia las animaciones de AOS Animate on Scroll.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     
 </head>
 <body>
@@ -66,7 +69,7 @@
         <!-- Main content -->
         <!-- Hero em bootstrap -->
         <div class="bg-image">
-            <div class="overlay">
+            <div class="overlay" class="animate__animated animate__bounce">
                 <h1>Somos Comunidad<br>Somos Familia</h1>
             </div>
         </div>
@@ -78,9 +81,9 @@
         </div>
 
         <!-- Cards Responsive -->
-        <div class="container">
+        <div class="container" class="animate__animated animate__flash">
             <div class="row justify-content-center">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-up">
                 <div class="card mb-3 text-center">
                     <img src="./assets/img/niña_con_golden_1280.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -90,7 +93,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-up">
                 <div class="card mb-3 text-center">
                     <img src="./assets/img/gps_paseadores_1280.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -100,7 +103,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-up">
                     <div class="card mb-3 text-center">
                     <img src="./assets/img/La_Manada_portada_1280.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -110,7 +113,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-up">
                     <div class="card mb-3 text-center">
                     <img src="./assets/img/portada tecnologias_1280_filtro.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -178,6 +181,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- <script>iconos de fowntawesome</script> -->
     <script src="https://kit.fontawesome.com/1cebb31470.js" crossorigin="anonymous"></script>
+    <!-- <script>Animaciones de AOS Animate on Scroll.css </script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inicializo AOS -->
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>

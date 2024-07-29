@@ -48,27 +48,20 @@ header .btn-color {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%; /* Para que el overlay ocupe todo el contenedor */
+  background-color: rgba(0, 0, 0, 0.5); /* Sub-Overlay negro con opacidad */
 }
 .bg-image h1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* position: absolute;
-  top: auto;
-  left: 50%; 
-  transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5); /* Negro con opacidad 
-  width: 100%;
-  height: 100%;
-  font-family: 'fredoka';
+  font-family: "fredoka";
   font-size: 60px;
   font-weight: 700;
-  color: rgb(255, 254, 244); /* Color del texto 
-  background-color: rgba(0, 0, 0, 0.5); /* Sub-Overlay negro con opacidad */
+  color: rgb(255, 254, 244); /* Color del texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
 }
 
 /* Items del menu de navegación */
