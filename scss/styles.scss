@@ -1,11 +1,8 @@
 @import "functions/variables";
 @import "functions/mixins";
-/* Importo las fuentes del sitio */
 @import "base/fonts";
-/* Importo las secciones del sitio */
 @import "layout/_header";
 @import "layout/_hero";
-
 @import "pages/home";
 @import "components/navbar";
 @import "components/_headings";

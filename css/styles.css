@@ -1,10 +1,8 @@
 @charset "UTF-8";
-/* Importo las fuentes del sitio */
 /* Import Google fonts Fredoka*/
 @import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
 /* Import Google fonts Poppins*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-/* Importo las secciones del sitio */
 /* Header del Home */
 header {
   background-image: linear-gradient(90deg, rgb(41, 176, 203) 0%, rgb(53, 53, 195) 35%, rgb(34, 29, 125) 100%);
@@ -36,7 +34,7 @@ header .btn-color {
 
 /* Hero en Bootstrap */
 .bg-image {
-  background-image: url("/assets/img/familia_moderna_proyecto_canino.jpg");
+  background-image: url("../assets/img/familia_moderna_proyecto_canino.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Efecto parallax */
