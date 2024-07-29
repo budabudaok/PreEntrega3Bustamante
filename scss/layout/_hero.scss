@@ -1,6 +1,6 @@
 /* Hero en Bootstrap */
 .bg-image {
-    background-image: url('../assets/img/familia_moderna_proyecto_canino.jpg');
+    background-image: url('../../assets/img/familia_moderna_proyecto_canino.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Efecto parallax */
@@ -13,18 +13,6 @@
         align-items: center;
         justify-content: center;
         height: 100%; /* Para que el overlay ocupe todo el contenedor */
-        background-color: rgba(0, 0, 0, 0.5); /* Sub-Overlay negro con opacidad */ 
+        background-color: rgba(113, 86, 0, 0.304); /* Sub-Overlay negro con opacidad */ 
     } 
-        h1{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            font-family: 'fredoka';
-            font-size: 60px;
-            font-weight: 700;
-            color: rgb(255, 254, 244); /* Color del texto */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
-    }
-}    
+}

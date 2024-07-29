@@ -36,7 +36,7 @@ header .btn-color {
 
 /* Hero en Bootstrap */
 .bg-image {
-  background-image: url("../assets/img/familia_moderna_proyecto_canino.jpg");
+  background-image: url("../../assets/img/familia_moderna_proyecto_canino.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Efecto parallax */
@@ -49,19 +49,11 @@ header .btn-color {
   align-items: center;
   justify-content: center;
   height: 100%; /* Para que el overlay ocupe todo el contenedor */
-  background-color: rgba(0, 0, 0, 0.5); /* Sub-Overlay negro con opacidad */
+  background-color: rgba(113, 86, 0, 0.304); /* Sub-Overlay negro con opacidad */
 }
-.bg-image h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.img-home-desarrollos {
   text-align: center;
-  font-family: "fredoka";
-  font-size: 60px;
-  font-weight: 700;
-  color: rgb(255, 254, 244); /* Color del texto */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
 }
 
 /* Items del menu de navegación */
@@ -125,6 +117,25 @@ header .btn-color {
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "fredoka";
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(255, 255, 255); /* Color del texto */
+  text-shadow: 2px 2px 4px rgb(255, 32, 154); /* Sombreado del texto */
+}
+
+h2 {
+  text-align: center;
+  font-family: "fredoka";
+  color: rgb(41, 176, 203); /* Color del texto */
+  padding-top: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
