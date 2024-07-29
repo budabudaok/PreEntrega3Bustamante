@@ -36,7 +36,7 @@ header .btn-color {
 
 /* Hero en Bootstrap */
 .bg-image {
-  background-image: url("../../assets/img/familia_moderna_proyecto_canino.jpg");
+  background-image: url("/assets/img/familia_moderna_proyecto_canino.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Efecto parallax */
