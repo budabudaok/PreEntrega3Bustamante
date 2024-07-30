@@ -8,11 +8,11 @@
     height: 65vh;  /* Altura del contenedor */
     position: relative;
     
-    .overlay{
+    .overlay {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100%; /* Para que el overlay ocupe todo el contenedor */
-        background-color: rgba(113, 86, 0, 0.304); /* Sub-Overlay negro con opacidad */ 
+        background-color: rgba(113, 86, 0, 0.304); /* Sub-Overlay con opacidad */ 
     } 
 }
