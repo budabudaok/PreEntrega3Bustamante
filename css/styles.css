@@ -139,6 +139,10 @@ header .btn-color {
     font-size: 40px;
   }
 }
+#footer {
+  background-color: rgb(154, 159, 255);
+}
+
 .img-home-desarrollos {
   text-align: center;
 }
