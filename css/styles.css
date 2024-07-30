@@ -140,7 +140,10 @@ header .btn-color {
   }
 }
 #footer {
-  background-color: rgb(154, 159, 255);
+  background-color: rgb(255, 244, 160);
+}
+#footer .sn-color {
+  color: rgb(0, 0, 0);
 }
 
 .img-home-desarrollos {
