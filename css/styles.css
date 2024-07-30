@@ -50,6 +50,21 @@ header .btn-color {
   background-color: rgba(113, 86, 0, 0.304); /* Sub-Overlay con opacidad */
 }
 
+/* Vistas solo para Mobile */
+@media (max-width: 767.98px) {
+  /* Iconos de ancho completo y centrado */
+  .overlay h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "fredoka";
+    font-size: 40px;
+    /* font-weight: 700; */
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-shadow: 2px 2px 4px rgb(255, 32, 154); /* Sombreado del texto */
+  }
+}
 .img-home-desarrollos {
   text-align: center;
 }
