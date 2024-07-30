@@ -54,15 +54,7 @@ header .btn-color {
 @media (max-width: 767.98px) {
   /* Iconos de ancho completo y centrado */
   .overlay h1 {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: "fredoka";
     font-size: 40px;
-    /* font-weight: 700; */
-    color: rgb(255, 255, 255); /* Color del texto */
-    text-shadow: 2px 2px 4px rgb(255, 32, 154); /* Sombreado del texto */
   }
 }
 .img-home-desarrollos {
@@ -147,7 +139,7 @@ h2 {
   text-align: center;
   font-family: "fredoka";
   color: rgba(120, 237, 255, 0.919); /* Color del texto */
-  text-shadow: 2px 2px 4px rgb(11, 107, 190); /* Sombreado del texto */
+  text-shadow: 2px 2px 4px rgb(69, 151, 223); /* Sombreado del texto */
   padding-top: 25px;
 }
 
