@@ -3,64 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
 /* Import Google fonts Poppins*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-/* Header del Home */
-header {
-  background-image: linear-gradient(90deg, rgb(41, 176, 203) 0%, rgb(53, 53, 195) 35%, rgb(34, 29, 125) 100%);
-  /* Color de los iconos */
-  /* Font-size y color del texto */
-  /* Boton "Acceder" */
-  /* Linea del borde inferior */
-  border-bottom: 1px solid white;
-}
-header .icon-color {
-  color: rgba(120, 237, 255, 0.919);
-}
-header .navbar .nav-link {
-  font-size: 1.3rem;
-  color: rgb(0, 180, 224);
-}
-header .btn-color {
-  color: rgb(0, 180, 224);
-  background-color: rgb(255, 255, 255);
-  border-color: rgb(179, 232, 245);
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 4px;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-
-/* Hero en Bootstrap */
-.bg-image {
-  background-image: url("../assets/img/familia_moderna_proyecto_canino.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* Efecto parallax */
-  background-repeat: no-repeat;
-  height: 65vh; /* Altura del contenedor */
-  position: relative;
-}
-.bg-image .overlay {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%; /* Para que el overlay ocupe todo el contenedor */
-  background-color: rgba(113, 86, 0, 0.304); /* Sub-Overlay con opacidad */
-}
-
-/* Vistas solo para Mobile */
-@media (max-width: 767.98px) {
-  /* Iconos de ancho completo y centrado */
-  .overlay h1 {
-    font-size: 40px;
-  }
-}
-.img-home-desarrollos {
-  text-align: center;
-}
-
 /* Items del menu de navegación */
 .nav-item {
   background-color: azure;
@@ -139,8 +81,66 @@ h2 {
   text-align: center;
   font-family: "fredoka";
   color: rgba(120, 237, 255, 0.919); /* Color del texto */
-  text-shadow: 2px 2px 4px rgb(69, 151, 223); /* Sombreado del texto */
+  text-shadow: 2px 2px 4px rgb(202, 230, 255); /* Sombreado del texto */
   padding-top: 25px;
+}
+
+/* Header del Home */
+header {
+  background-image: linear-gradient(90deg, rgb(41, 176, 203) 0%, rgb(53, 53, 195) 35%, rgb(34, 29, 125) 100%);
+  /* Color de los iconos */
+  /* Font-size y color del texto */
+  /* Boton "Acceder" */
+  /* Linea del borde inferior */
+  border-bottom: 1px solid white;
+}
+header .icon-color {
+  color: rgba(120, 237, 255, 0.919);
+}
+header .navbar .nav-link {
+  font-size: 1.3rem;
+  color: rgb(0, 180, 224);
+}
+header .btn-color {
+  color: rgb(0, 180, 224);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(179, 232, 245);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* Hero en Bootstrap */
+.bg-image {
+  background-image: url("../assets/img/familia_moderna_proyecto_canino.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Efecto parallax */
+  background-repeat: no-repeat;
+  height: 65vh; /* Altura del contenedor */
+  position: relative;
+}
+.bg-image .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Para que el overlay ocupe todo el contenedor */
+  background-color: rgba(113, 86, 0, 0.304); /* Sub-Overlay con opacidad */
+}
+
+/* Vistas solo para Mobile */
+@media (max-width: 767.98px) {
+  /* Iconos de ancho completo y centrado */
+  .overlay h1 {
+    font-size: 40px;
+  }
+}
+.img-home-desarrollos {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
