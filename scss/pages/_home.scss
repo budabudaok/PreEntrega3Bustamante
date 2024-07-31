@@ -3,3 +3,10 @@
 .img-home-desarrollos{
     text-align: center;
 }
+
+/* Normalizo los tamaños de las imagenes de las cards */
+.card-img-normalize {
+    width: 100%;
+    height: 240px; /* o la altura deseada */
+    object-fit: cover; /* Para recortar la imagen manteniendo la proporción */
+}

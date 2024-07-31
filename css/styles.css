@@ -153,7 +153,7 @@ header .btn-color {
   }
 }
 #footer {
-  background-color: rgb(255, 244, 160);
+  background-color: rgb(95, 119, 255);
 }
 #footer .sn-color {
   color: rgb(0, 0, 0);
@@ -161,6 +161,13 @@ header .btn-color {
 
 .img-home-desarrollos {
   text-align: center;
+}
+
+/* Normalizo los tamaños de las imagenes de las cards */
+.card-img-normalize {
+  width: 100%;
+  height: 240px; /* o la altura deseada */
+  object-fit: cover; /* Para recortar la imagen manteniendo la proporción */
 }
 
 /*# sourceMappingURL=styles.css.map */

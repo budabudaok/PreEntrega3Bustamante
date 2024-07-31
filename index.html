@@ -73,7 +73,7 @@
             </div>
         </div>
         <!-- Desarrollos adaptable -->
-        <h2 class="display-4" data-aos="fade-down" data-aos-duration="2000">Nuestros Desarrollos</h2>
+        <h2 class="display-4" data-aos="flip-left" data-aos-duration="2000">Nuestros Desarrollos</h2>
         <div class="container">
         <h4><p class="mt-0">Somos una startup que se compromete en multinivel para desarrollar propuetas sociales y tecnológicas dentro de un marco concientizador de tenencia responsale. Innovamos pensando para las generaciones presentes y futuras. Impulsamos el éxito en cada persona y nos sumamos a la Comunidad Canina para la felicidad exclusiva de tu Mascota.</p></h4>
         <div class="img-home-desarrollos">
@@ -81,51 +81,107 @@
         </div>
 
         <!-- Cards Responsive -->
-        <div class="container" class="animate__animated animate__flash">
-            <div class="row justify-content-center">
-                <div class="col-md-3" data-aos="fade-up">
-                <div class="card mb-3 text-center">
-                    <img src="./assets/img/niña_con_golden_1280.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Red Social Canina</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!-- Cards Responsive -->
+        <div class="container">
+            <!-- Carousel for Mobile -->
+            <div id="cardsCarousel" class="carousel slide d-md-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card text-center">
+                            <img src="./assets/img/niña_con_golden_1280.jpg" class="card-img-top card-img-normalize" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Red Social Canina</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card text-center">
+                            <img src="./assets/img/gps_paseadores_1280.jpg" class="card-img-top card-img-normalize" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Identificadores QR</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card text-center">
+                            <img src="./assets/img/La_Manada_portada_1280.jpg" class="card-img-top card-img-normalize" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">La Manada</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card text-center">
+                            <img src="./assets/img/portada tecnologias_1280_filtro.jpg" class="card-img-top card-img-normalize" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Membresía</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="col-md-3" data-aos="fade-up">
-                <div class="card mb-3 text-center">
-                    <img src="./assets/img/gps_paseadores_1280.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Identificadores QR</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col-md-3" data-aos="fade-up">
+                <button class="carousel-control-prev" type="button" data-bs-target="#cardsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cardsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Grid for Desktop -->
+            <div class="row justify-content-center d-none d-md-flex">
+                <div class="col-md-3">
                     <div class="card mb-3 text-center">
-                    <img src="./assets/img/La_Manada_portada_1280.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">La Manada</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <img src="./assets/img/niña_con_golden_1280.jpg" class="card-img-top card-img-normalize" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Social Canina</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="col-md-3" data-aos="fade-up">
+                <div class="col-md-3">
                     <div class="card mb-3 text-center">
-                    <img src="./assets/img/portada tecnologias_1280_filtro.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Membresía</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <img src="./assets/img/gps_paseadores_1280.jpg" class="card-img-top card-img-normalize" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Identificadores QR</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 text-center">
+                        <img src="./assets/img/La_Manada_portada_1280.jpg" class="card-img-top card-img-normalize" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">La Manada</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 text-center">
+                        <img src="./assets/img/portada tecnologias_1280_filtro.jpg" class="card-img-top card-img-normalize" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Membresía</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-        <!-- Cards -->
+        </div>
+    <!-- Cards -->       
     </main>
 
     <!--Footer-->
@@ -137,7 +193,7 @@
                     <p class="lead">Ellos no tienen redes sociales y te siguen a todos lados</p>
                 </div>
                 <div class="col-md-5">
-                    <img src="./assets/img/sub-proyectos.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/nuestros_desarrollos_1280.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
         </div>
