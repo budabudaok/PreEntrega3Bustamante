@@ -1,6 +1,6 @@
 #footer{
     @include gradient-bg($color-degrade-inicial-footer, $color-degrade-medio-footer, $color-degrade-final-footer);
-    margin: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     .sn-color{
         color: rgb(0, 0, 0);
     }
