@@ -14,6 +14,7 @@
   margin-top: 5px;
   margin-left: 2px;
   margin-right: 2px;
+  font-family: "Poppins";
 }
 
 /* Color del texto, transform, font y margin en hover del menu */
@@ -26,12 +27,18 @@
   font-family: "fredoka";
 }
 
+/* Tamaño del texto y font para el boton acceder del menu */
+.btn {
+  font-family: "poppins";
+  font-size: 19px;
+}
+
 /* Color del texto, transformn, font y margin en hover del boton acceder del menu */
 .btn:hover {
   transition: 0.5s;
   transform: scale(1.2);
-  border: 4px solid wheat;
-  background-color: white;
+  border: 2px solid rgb(201, 253, 110);
+  background-color: rgb(153, 204, 64);
   margin-right: 40px;
   margin-left: 40px;
   font-family: "fredoka";
@@ -99,13 +106,14 @@ h4 {
     margin: 15px 15px 10px 0px;
   }
 }
-/* Header del Home */
+/* Degrade del Home */
 header {
   background-image: linear-gradient(90deg, rgb(41, 176, 203) 0%, rgb(53, 53, 195) 35%, rgb(34, 29, 125) 100%);
   /* Color de los iconos */
   /* Font-size y color del texto */
   /* Boton "Acceder" */
-  /* Linea del borde inferior */
+  /* Gover Boton "Acceder" */
+  /* Linea del borde inferior del header */
   border-bottom: 1px solid white;
 }
 header .icon-color {
@@ -126,6 +134,10 @@ header .btn-color {
   margin-top: 5px;
   margin-left: 2px;
   margin-right: 2px;
+  align-items: center;
+}
+header .btn.btn-color:hover .fa-user {
+  color: white;
 }
 
 /* Hero en Bootstrap */
@@ -148,7 +160,7 @@ header .btn-color {
 
 /* Vistas solo para Mobile */
 @media (max-width: 767.98px) {
-  /* Iconos de ancho completo y centrado */
+  /* Texto mas chico para mejor vista */
   .overlay h1 {
     font-size: 40px;
   }

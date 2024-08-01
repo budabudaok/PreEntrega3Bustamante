@@ -1,4 +1,4 @@
-// Mixin para el degrade para todos los headers
+// Mixin para el degrade para todos los headers y footer
 @mixin gradient-bg($inicial, $medio, $final) {
     background-image: linear-gradient(90deg, $inicial 0%, $medio 35%, $final 100%);
 }
