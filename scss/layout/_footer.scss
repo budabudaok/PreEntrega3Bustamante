@@ -12,3 +12,13 @@
     color: azure;
     font-family: 'poppins';
 }
+
+/* Vistas solo para Mobile */
+
+@media (max-width: 767.98px) {
+    /* Iconos de ancho completo y centrado */
+    #footer{
+        font-size: 12px;
+        padding-top: 15px;
+    }
+}
