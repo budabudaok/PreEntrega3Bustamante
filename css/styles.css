@@ -87,8 +87,8 @@ h1 {
 h2 {
   text-align: center;
   font-family: "fredoka";
-  color: rgba(120, 237, 255, 0.919); /* Color del texto */
-  text-shadow: 2px 2px 4px rgb(202, 230, 255); /* Sombreado del texto */
+  color: rgba(255, 255, 255, 0.919); /* Color del texto */
+  text-shadow: 2px 2px 4px rgb(0, 179, 206); /* Sombreado del texto */
   padding-top: 25px;
 }
 
@@ -170,12 +170,20 @@ header .btn.btn-color:hover .fa-user {
   /* Sin margenes */
   margin: 0px 0px 0px 0px;
   /* Color de los iconos */
+  /* Iconos hover y transfrormacion */
   /* Color del texto y tipografia */
   color: azure;
   font-family: "poppins";
 }
 #footer .sn-color {
   color: rgb(255, 255, 255);
+  padding: 0px 5px 0px 5px;
+}
+#footer .sn-color:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  transform: scale(1.4);
+  padding: 0px 20px 0px 20px;
 }
 
 /* Vistas solo para Mobile */

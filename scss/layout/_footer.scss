@@ -7,7 +7,16 @@
     /* Color de los iconos */
     .sn-color{
         color: rgb(255, 255, 255);
+        padding: 0px 5px 0px 5px;
     }
+    /* Iconos hover y transfrormacion */
+    .sn-color:hover{
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        transform: scale(1.4);
+        padding: 0px 20px 0px 20px;
+    }
+
     /* Color del texto y tipografia */
     color: azure;
     font-family: 'poppins';
