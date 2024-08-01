@@ -59,8 +59,8 @@
     transition: 0.5s;
     transform: scale(1.2);
     margin-top: 10px;
-    border: 2px solid wheat;
-    background-color: white;
+    border: 2px solid rgb(201, 253, 110);
+    background-color: rgb(153, 204, 64);
   }
   /* Color blanco al borde del menu mobile*/
   .navbar-toggler {
@@ -188,13 +188,15 @@ header .btn.btn-color:hover .fa-user {
 }
 .img-home-desarrollos {
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* Normalizo los tamaños de las imagenes de las cards */
 .card-img-normalize {
   width: 100%;
-  height: 240px; /* o la altura deseada */
-  object-fit: cover; /* Para recortar la imagen manteniendo la proporción */
+  height: 240px; /* altura de las tarjetas */
+  object-fit: cover; /* Para recortar la image cono la proporción */
 }
 
 /*# sourceMappingURL=styles.css.map */
