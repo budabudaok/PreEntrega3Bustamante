@@ -167,10 +167,15 @@ header .btn.btn-color:hover .fa-user {
 }
 #footer {
   background-image: linear-gradient(90deg, rgb(34, 29, 125) 0%, rgb(41, 176, 203) 35%, rgb(34, 29, 125) 100%);
+  /* Sin margenes */
   margin: 0px 0px 0px 0px;
+  /* Color de los iconos */
+  /* Color del texto y tipografia */
+  color: azure;
+  font-family: "poppins";
 }
 #footer .sn-color {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .img-home-desarrollos {
