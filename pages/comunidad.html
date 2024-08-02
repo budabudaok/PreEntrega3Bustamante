@@ -64,24 +64,47 @@
 
     <main>
         <!-- Main content -->
-
-        <div class="video-background">
-            <div class="video-wrap">
-                <video id="video" autoplay loop muted>
-                    <source src="../assets/video/Jardin Canino en el Parque.mp4" type="video/mp4">
-                </video>
+        <!-- Video en bootstrap -->
+        <div class="video-container">
+            <video autoplay muted loop id="background-video">
+                <source src="../assets/video/Jardin Canino en el Parque.mp4" type="video/mp4">
+            </video>
+            <div class="overlay-comunidad d-flex align-items-center justify-content-center">
+                <h1 class="h1-comunidad">Nuestra Red Social Canina</h1>
+                <button type="button" class="btn btn-outline-light btn-lg btn-comunidad">Miembros</button>
             </div>
-            <div class="video-overlay"></div>
-            <div class="content text-center">
-                <div class="overlay">
-                    <h1 data-aos="zoom-in-up" data-aos-duration="1500">Somos Comunidad<br>Somos Familia</h1>
+            
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="tu-imagen.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Checkbox</li>
+                                </ul>
+                            <button type="button" class="btn btn-primary">Button</button>
+                        </div>
+                    </div>
                 </div>
-                <p>Your subheading or description text goes here.</p>
-                <a href="#" class="btn btn-primary">Call to Action</a>
+    
+                <div class="col-md-4">
+                    <h2>Eventos Sociales</h2>
+                    <div class="calendar">
+                        </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <h2>Chat Interactivo</h2>
+                    <div class="chat">
+                        </div>
+                </div>
             </div>
         </div>
-        <!-- Video em bootstrap -->
-         
+        
+
         <!-- Desarrollos -->
         <h2 class="display-4" data-aos="zoom-in" data-aos-duration="2500">Desarrollos para la Comunidad</h2>
         <div class="img-home-desarrollos">
