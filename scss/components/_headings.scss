@@ -23,6 +23,13 @@ h1{
         text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombreado del texto */
         margin-bottom: 1rem;
     }
+    /* H1 para la pagina de QR Mascoteros */
+    .h1-qr-mascoteros{
+        @extend h1;
+        color: rgb(255, 209, 123); /* Color del texto */
+        text-shadow: 2px 2px 4px rgb(25, 0, 255); /* Sombreado del texto */
+        margin-bottom: 1rem;
+    }
 
 h2  {
     text-align: center;

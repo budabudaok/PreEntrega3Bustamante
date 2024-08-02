@@ -74,7 +74,7 @@
   }
 }
 /* H1 */
-h1, .h1-paseadores, .h1-comunidad {
+h1, .h1-qr-mascoteros, .h1-paseadores, .h1-comunidad {
   top: 50%;
   left: 50%;
   text-align: center;
@@ -96,6 +96,13 @@ h1, .h1-paseadores, .h1-comunidad {
 .h1-paseadores {
   color: rgb(255, 255, 255); /* Color del texto */
   text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombreado del texto */
+  margin-bottom: 1rem;
+}
+
+/* H1 para la pagina de QR Mascoteros */
+.h1-qr-mascoteros {
+  color: rgb(255, 209, 123); /* Color del texto */
+  text-shadow: 2px 2px 4px rgb(25, 0, 255); /* Sombreado del texto */
   margin-bottom: 1rem;
 }
 
@@ -178,7 +185,7 @@ header .btn.btn-color:hover .fa-user {
 /* Vistas solo para Mobile */
 @media (max-width: 767.98px) {
   /* Texto mas chico para mejor vista */
-  .overlay h1, .overlay .h1-comunidad, .overlay .h1-paseadores {
+  .overlay h1, .overlay .h1-comunidad, .overlay .h1-paseadores, .overlay .h1-qr-mascoteros {
     font-size: 40px;
   }
 }
