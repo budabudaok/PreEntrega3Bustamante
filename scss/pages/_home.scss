@@ -18,5 +18,13 @@
 .seguinos{
     margin-top: 30px;
     margin-bottom: 30px;
+}
 
+/* Vistas solo para Mobile */
+
+@media (max-width: 767.98px) {
+    /* Texto mas chico para mejor vista */
+    .featurette-heading{
+        font-size: 18px;
+    }
 }
