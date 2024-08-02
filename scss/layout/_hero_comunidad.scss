@@ -2,8 +2,9 @@
     position: relative;
     width: 100%;
     height: 80vh;
-    overflow: hidden;
-    /* Hero con video en Comunidad */
+    overflow: hidden;  
+}
+/* Hero con video en Comunidad */
     #background-video {
         position: absolute;
         top: 50%;
@@ -13,7 +14,7 @@
         object-fit: cover;
         transform: translate(-50%, -50%);
         z-index: 1;
-    }
+}
     /* Texto arriba del fondo */
     .overlay-comunidad {
         position: absolute;
@@ -29,10 +30,11 @@
         text-align: center;
         flex-direction: column; /* Cambio a direccion columna para apilar  */
         justify-content: flex-end; /* Alineo el boton hacia el final (abajo) */
-
-    } 
-
+    
+} 
+    /* Boton de miembros */
     .btn-comunidad {
         margin-top: 1rem; /* Ajusto el margen superior */       
     } 
-}
+
+

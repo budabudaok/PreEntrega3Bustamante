@@ -21,6 +21,7 @@
     <!-- Link hacia las animaciones de AOS Animate on Scroll.css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
+    
 </head>
 <body>
     <!--Header-->
@@ -64,28 +65,38 @@
 
     <main>
         <!-- Main content -->
-        <!-- Video en bootstrap -->
+        <!-- Hero video en bootstrap -->
         <div class="video-container">
             <video autoplay muted loop id="background-video">
-                <source src="../assets/video/Jardin Canino en el Parque.mp4" type="video/mp4">
+                <source src="../assets/video/red_social_canina.mp4" type="video/mp4">
             </video>
             <div class="overlay-comunidad d-flex align-items-center justify-content-center">
-                <h1 class="h1-comunidad">Nuestra Red Social Canina</h1>
-                <button type="button" class="btn btn-outline-light btn-lg btn-comunidad">Miembros</button>
+                <h1 class="h1-comunidad">Red Social del Rubro Canino</h1>
+                <button type="button" class="btn btn-outline-light btn-lg btn-comunidad">Nuestros Miembros</button>
             </div>
-            
         </div>
-        
+        <!--  -->
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="tu-imagen.png" class="card-img-top" alt="...">
+                        <img src="../assets/img/sub-proyectos.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Checkbox</li>
-                                </ul>
-                            <button type="button" class="btn btn-primary">Button</button>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="checkbox1">
+                                    <label class="form-check-label" for="checkbox1">Opción 1</label>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="checkbox2">
+                                    <label class="form-check-label" for="checkbox2">Opción 2</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-success">Button</button>
                         </div>
                     </div>
                 </div>
@@ -103,7 +114,7 @@
                 </div>
             </div>
         </div>
-        
+
 
         <!-- Desarrollos -->
         <h2 class="display-4" data-aos="zoom-in" data-aos-duration="2500">Desarrollos para la Comunidad</h2>
@@ -224,7 +235,7 @@
             </div>
         </div>       
         <div class="container img-home-seguinos">
-                <img src="./assets/img/bienvenidos_a_proyecto_canino_1980.jpg" class="img-fluid" alt="Seguinos en nuestras redes">
+                <img src="../assets/img/bienvenidos_a_proyecto_canino_1980.jpg" class="img-fluid" alt="Seguinos en nuestras redes">
         </div>
         <!-- Fin Seguinos --> 
     </main>
@@ -261,6 +272,9 @@
     <script>
         AOS.init();
     </script>
+    <!-- Agrego el js de particulas para otro overlay sobre el video -->
+    <script src="https://falconmasters.com/demos/particulas/particles.min.js"></script>
+    <script src="https://falconmasters.com/demos/particulas/particulas.js"></script>
 
 </body>
 </html>

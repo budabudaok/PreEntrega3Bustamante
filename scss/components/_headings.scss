@@ -12,8 +12,15 @@ h1{
 /* H1 para la pagina de Comunidad */
     .h1-comunidad{
         @extend h1;
-        color: rgb(255, 255, 121); /* Color del texto */
-        text-shadow: 2px 2px 4px rgb(255, 132, 25); /* Sombreado del texto */
+        color: rgb(255, 210, 121); /* Color del texto */
+        text-shadow: 2px 2px 4px rgb(25, 247, 255); /* Sombreado del texto */
+        margin-bottom: 1rem;
+    }
+    /* H1 para la pagina de Paseadores */
+    .h1-paseadores{
+        @extend h1;
+        color: rgb(255, 255, 255); /* Color del texto */
+        text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombreado del texto */
         margin-bottom: 1rem;
     }
 

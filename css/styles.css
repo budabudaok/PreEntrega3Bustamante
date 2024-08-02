@@ -74,7 +74,7 @@
   }
 }
 /* H1 */
-h1, .h1-comunidad {
+h1, .h1-paseadores, .h1-comunidad {
   top: 50%;
   left: 50%;
   text-align: center;
@@ -87,8 +87,15 @@ h1, .h1-comunidad {
 
 /* H1 para la pagina de Comunidad */
 .h1-comunidad {
-  color: rgb(255, 255, 121); /* Color del texto */
-  text-shadow: 2px 2px 4px rgb(255, 132, 25); /* Sombreado del texto */
+  color: rgb(255, 210, 121); /* Color del texto */
+  text-shadow: 2px 2px 4px rgb(25, 247, 255); /* Sombreado del texto */
+  margin-bottom: 1rem;
+}
+
+/* H1 para la pagina de Paseadores */
+.h1-paseadores {
+  color: rgb(255, 255, 255); /* Color del texto */
+  text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombreado del texto */
   margin-bottom: 1rem;
 }
 
@@ -171,7 +178,7 @@ header .btn.btn-color:hover .fa-user {
 /* Vistas solo para Mobile */
 @media (max-width: 767.98px) {
   /* Texto mas chico para mejor vista */
-  .overlay h1, .overlay .h1-comunidad {
+  .overlay h1, .overlay .h1-comunidad, .overlay .h1-paseadores {
     font-size: 40px;
   }
 }
@@ -180,10 +187,10 @@ header .btn.btn-color:hover .fa-user {
   width: 100%;
   height: 80vh;
   overflow: hidden;
-  /* Hero con video en Comunidad */
-  /* Texto arriba del fondo */
 }
-.video-container #background-video {
+
+/* Hero con video en Comunidad */
+#background-video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -193,7 +200,9 @@ header .btn.btn-color:hover .fa-user {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-.video-container .overlay-comunidad {
+
+/* Texto arriba del fondo */
+.overlay-comunidad {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,7 +217,9 @@ header .btn.btn-color:hover .fa-user {
   flex-direction: column; /* Cambio a direccion columna para apilar  */
   justify-content: flex-end; /* Alineo el boton hacia el final (abajo) */
 }
-.video-container .btn-comunidad {
+
+/* Boton de miembros */
+.btn-comunidad {
   margin-top: 1rem; /* Ajusto el margen superior */
 }
 
