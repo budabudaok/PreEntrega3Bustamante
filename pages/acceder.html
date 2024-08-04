@@ -59,139 +59,97 @@
                 </div>
             </div>  
         </nav>
-        <!-- End Nav Bootstrap -->
+    <!-- End Nav Bootstrap -->
     </header>
-
     <main>
         <!-- Main content -->
-        <!-- Hero en bootstrap -->
-        <div class="bg-image">
-            <div class="overlay">
-                <h1 data-aos="zoom-in-up" data-aos-duration="1500">Somos Comunidad<br>Somos Familia</h1>
+        <!-- Formularios de Registracion -->
+        <h1  data-aos="zoom-in" data-aos-duration="1500">Accedé como Miembro</h1>
+        <div class="d-flex align-items-center justify-content-center vh-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <ul class="nav nav-tabs card-header-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#login" data-bs-toggle="tab">Iniciar Sesión</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#register" data-bs-toggle="tab">Registrarme</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content">
+                                    <!-- Login Form -->
+                                    <div class="tab-pane active" id="login">
+                                        <h5 class="card-title text-center">Acceder</h5>
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="loginEmail" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="loginEmail" placeholder="email@address.com">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="loginPassword" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="loginPassword">
+                                            </div>
+                                            <div class="mb-3">
+                                                <a href="#" class="link-primary">Forgot password?</a>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary w-100">Log in</button>
+                                            <div class="form-check mt-3">
+                                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                                                <label class="form-check-label" for="rememberMe">Remember me</label>
+                                            </div>
+                                            <div class="mt-3 text-center">
+                                                <p>Or</p>
+                                                <button type="button" class="btn btn-outline-secondary w-100">Sign in with Google</button>
+                                            </div>
+                                            <div class="mt-3 text-center">
+                                                <p>Don't have an account? <a href="#register" data-bs-toggle="tab">Sign up here</a></p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- Register Form -->
+                                    <div class="tab-pane" id="register">
+                                        <h5 class="card-title text-center">Crear mi cuenta</h5>
+                                        <form>
+                                            <div class="mb-3">
+                                                <button type="button" class="btn btn-outline-secondary w-100">Continue with Google</button>
+                                            </div>
+                                            <div class="mb-3 text-center">
+                                                <p>Or</p>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="registerEmail" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="registerEmail" placeholder="email@address.com">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="registerPassword" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="registerPassword">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="premiumMembership">
+                                                <label class="form-check-label" for="premiumMembership">Membresía Premium / Mensual</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary w-100">Create Account</button>
+                                            <div class="mt-3 text-center">
+                                                <p>By creating an account, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+                                            </div>
+                                            <div class="mt-3 text-center">
+                                                <p>Already have an account? <a href="#login" data-bs-toggle="tab">Log in here</a></p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- Desarrollos -->
-        <h2 class="display-4" data-aos="zoom-in" data-aos-duration="2500">Desarrollos para la Comunidad</h2>
-        <div class="img-home-desarrollos">
-            <img src="./assets/img/nuestros_desarrollos_1280.jpg" class="img-fluid" alt="Nuestros Desarrollos">
-        </div>
-        <div class="container">
-        <h4><p class="mt-0">Somos una <u>startup</u> que se compromete en multinivel para <b>desarrollar propuetas sociales y tecnológicas</b> dentro de un marco concientizador de <b>tenencia responsale</b>. Innovamos pensando para las generaciones presentes y futuras. Impulsamos el <u>éxito</u> en cada persona y nos sumamos a la <b>comunidad canina</b> para la felicidad exclusiva de tu Mascota.
-        </p>
-        </h4>
         </div>
 
-        <!-- Cards Responsive -->
-        <div class="container" data-aos="fade-up">
-            <!-- Mobile -->
-            <div id="cardsCarousel" class="carousel slide d-md-none" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card text-center">
-                            <img src="./assets/img/red_social_canina_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="Red Social Canina">
-                            <div class="card-body">
-                                <h5 class="card-title">Red Social Canina</h5>
-                                <p class="card-text">Una guía global para todas las personas, profesionales y servicios que integran el universo canino.</p>
-                                <a href="#" class="btn btn-primary">Ingresar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card text-center">
-                            <img src="./assets/img/identificadores_qr_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="Identificadores QR">
-                            <div class="card-body">
-                                <h5 class="card-title">Identificadores QR</h5>
-                                <p class="card-text">Accedé al perfil online de la mascota escaneando o ingresando el código único de su QR en el buscador.</p>
-                                <a href="#" class="btn btn-primary">Ingresar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card text-center">
-                            <img src="./assets/img/la_manada_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="La Manada">
-                            <div class="card-body">
-                                <h5 class="card-title">La Manada</h5>
-                                <p class="card-text">Conectamos a paseadores responsables y potenciamos su emprendimiento con más clientes</p>
-                                <a href="#" class="btn btn-primary">Ingresar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card text-center">
-                            <img src="./assets/img/membresias_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="Membresía">
-                            <div class="card-body">
-                                <h5 class="card-title">Membresía</h5>
-                                <p class="card-text">Registrate y adquirí una membresia premium para acceder a beneficions exclusivos. Sumate.</p>
-                                <a href="#" class="btn btn-primary">Ingresar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#cardsCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#cardsCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-            <!-- Desktop -->
-            <div class="row justify-content-center d-none d-md-flex">
-                <div class="col-md-3">
-                    <div class="card mb-3 text-center" data-aos="flip-left" data-aos-duration="3000">
-                        <img src="./assets/img/red_social_canina_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="Red Social Canina">
-                        <div class="card-body">
-                            <h5 class="card-title">Red Social Canina</h5>
-                            <p class="card-text">Una guía global para todas las personas, profesionales y servicios que integran el universo canino.</p>
-                            <a href="#" class="btn btn-primary">Ingresar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-3 text-center" data-aos="flip-left" data-aos-duration="3000">
-                        <img src="./assets/img/identificadores_qr_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="Identificadores QR">
-                        <div class="card-body">
-                            <h5 class="card-title">Identificadores QR</h5>
-                            <p class="card-text">Accedé al perfil online de la mascota escaneando o ingresando el código único de su QR en el buscador.</p>
-                            <a href="#" class="btn btn-primary">Ingresar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-3 text-center" data-aos="flip-left" data-aos-duration="3000">
-                        <img src="./assets/img/la_manada_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="La Manada">
-                        <div class="card-body">
-                            <h5 class="card-title">La Manada</h5>
-                            <p class="card-text">Conectamos a paseadores responsables y potenciamos su emprendimiento con más clientes</p>
-                            <a href="#" class="btn btn-primary">Ingresar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mb-3 text-center" data-aos="flip-left" data-aos-duration="3000">
-                        <img src="./assets/img/membresias_proyecto_canino.jpg" class="card-img-top card-img-normalize" alt="Membresía">
-                        <div class="card-body">
-                            <h5 class="card-title">Membresía</h5>
-                            <p class="card-text">Registrate y adquirí una membresia premium para acceder a beneficions exclusivos. Sumate.</p>
-                            <a href="#" class="btn btn-primary">Ingresar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fin Cards -->
-        <!-- Seguinos -->
-        <div class="container-fluid seguinos">
-            <div class="row justify-content-center">
-                <h2 class="featurette-heading"><span class="text-muted">Seguinos... ellos no tienen redes sociales y te siguen a todos lados</span></h2>
-            </div>
-        </div>       
-        <div class="container img-home-seguinos">
-                <img src="./assets/img/bienvenidos_a_proyecto_canino_1980.jpg" class="img-fluid" alt="Seguinos en nuestras redes">
-        </div>
-        <!-- Fin Seguinos --> 
     </main>
 
     <!-- Footer -->
