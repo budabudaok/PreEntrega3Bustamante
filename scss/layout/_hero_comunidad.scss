@@ -1,7 +1,7 @@
 .video-container {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 65vh;
     overflow: hidden;  
 }
 /* Hero con video en Comunidad */
@@ -37,4 +37,12 @@
         margin-top: 1rem; /* Ajusto el margen superior */       
     } 
 
+/* Vistas solo para Mobile */
+
+@media (max-width: 767.98px) {
+    /* Texto mas chico para mejor vista */
+    .h1-comunidad{
+        font-size: 40px;
+    }
+}
 
