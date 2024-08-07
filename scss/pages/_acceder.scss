@@ -1,5 +1,14 @@
 .body_acceder{
-    background-image: url("/assets/icons/huellas_y_huesos_grises.jpg");
+    background-image: url("../assets/icons/huellas_y_huesos_grises.jpg");
     background-repeat: repeat;
     background-attachment: fixed; /* Efecto parallax */
+}
+
+.tab-content{
+    background-color: rgb(255, 255, 255);
+
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
 }

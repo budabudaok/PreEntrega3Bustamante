@@ -22,6 +22,20 @@
     font-family: 'fredoka';
 }
 
+/* Botondes de las pestañas */
+.nav-tabs .nav-link{
+    border-radius: 50px;
+}
+
+.nav-tabs .nav-link:focus{
+    border-radius: 50px;
+    :focus{
+        border-radius: 50px; 
+    }
+}
+
+
+
 /* Tamaño del texto y font para el boton acceder del menu */
 .btn{
     font-family: 'poppins';
