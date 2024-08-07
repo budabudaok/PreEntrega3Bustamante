@@ -314,4 +314,12 @@ header .btn.btn-color:hover .fa-user {
   border-width: 3px;
 }
 
+/* Vistas solo para Mobile */
+@media (max-width: 767.98px) {
+  /* Texto mas chico para mejor vista */
+  .h1-paseadores {
+    font-size: 40px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
